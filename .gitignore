@@ -1,0 +1,10 @@
+data/
+data-copy/
+
+articles/
+
+.vscode/
+
+.idea/
+
+*.log

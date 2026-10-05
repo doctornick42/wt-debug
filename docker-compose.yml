@@ -1,0 +1,17 @@
+services:
+
+  mongo-lab:
+
+    build: .
+
+    container_name: mongo-lab
+
+    ports:
+      - "27018:27017"
+
+    volumes:
+      - ./data:/data/db
+      - ./data-copy:/data/db-copy
+
+    stdin_open: true
+    tty: true
